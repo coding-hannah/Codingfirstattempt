@@ -1,7 +1,7 @@
 {
-  "name": "i-am-trying-to-code",
+  "name": "hannahs-portfolio",
   "version": "1.0.0",
-  "description": "",
+  "description": "I'm trying to make a portfolio. Fingers crossed it goes well!",
   "main": "index.html",
   "scripts": {
     "start": "serve"
