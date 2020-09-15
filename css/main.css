@@ -1,12 +1,42 @@
 
-body {background-color:lightblue;font-family: arial;}
-h1 {color:slateblue;text-decoration:underline;
+body {background-color:lightblue;font-family: arial; font-size:16px;
+}
+
+h1 {color:slateblue;text-decoration:underline; font-size:3rem;
  }
+
+ h2{font-size:1.8rem;
+}
+
+p{font-size:1rem;
+}
+
 a {color:white;
 text-decoration: none;
 }
 
-.primarybackground{background-color:purple;color:white;}
+ul{ list-style-type: none;
+  margin: 0;
+  padding: 2px; 
+}
+
+
+.active {
+  background-color:palevioletred;
+}
+.navbar {display:inline;border-right: 0.17rem solid blueviolet;font-size:1.5rem;}
+
+.primarybackground{background-color:purple;color:white; font-size:0.89rem;}
 
 #title-1{color:green;text-decoration:none;}
-#active{border-style:solid;}
+#active{position: absolute;
+  top: 0px;
+  left:0px;
+  right:0px;
+  
+}
+
+width:100}
+
+
+.miniwords{color:yellow;}
