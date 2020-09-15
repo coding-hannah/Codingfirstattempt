@@ -1,3 +1,12 @@
-/*
-  Nothing to see here.
-*/
+
+body {background-color:lightblue;font-family: arial;}
+h1 {color:slateblue;text-decoration:underline;
+ }
+a {color:white;
+text-decoration: none;
+}
+
+.primarybackground{background-color:purple;color:white;}
+
+#title-1{color:green;text-decoration:none;}
+#active{border-style:solid;}
