@@ -17,7 +17,7 @@ p{font-size:1rem;;
 }
 
 a {color:whitesmoke;
-text-decoration: none; font-family:'montserrat'; font-size:1.3rem;
+text-decoration: none; font-family:'montserrat'; font-size:1.2rem;
 }
 
 ul{ list-style-type: none;
@@ -29,7 +29,7 @@ ul{ list-style-type: none;
 .active {
   background-color:palevioletred; 
 }
-.navbar {display:inline;border-right: 0.17rem solid mistyrose;font-size:1.5rem;}
+.navbar {display:inline;border-right: 0.17rem solid mistyrose;font-size:1.35rem;}
 
 .primarybackground{background-color:rgb(48, 0, 15);color:mistyrose; font-size:0.89rem;}
 
