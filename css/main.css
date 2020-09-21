@@ -11,7 +11,8 @@ h1 {color:rgb(115, 8, 29);text-decoration:underline; font-size:2.4rem;font-famil
  h2{font-size:1.8rem;color:rgb(99, 37, 56);font-family:'Montserrat';
 }
 
-h3{text-decoration: underline; color:rgb(150, 44, 77); font-family:'Montserrat';}
+h3{text-decoration: underline; color:rgb(150, 44, 77); font-family:'Montserrat';
+}
 
 p{font-size:1rem;;
 }
@@ -26,9 +27,10 @@ ul{ list-style-type: none;
 }
 
 
-.active {
+#active {
   background-color:palevioletred; 
 }
+
 .navbar {display:inline;border-right: 0.17rem solid mistyrose;font-size:1.35rem;}
 
 .primarybackground{background-color:rgb(48, 0, 15);color:mistyrose; font-size:0.89rem;}
@@ -37,7 +39,7 @@ figcaption {background-color:palevioletred;
   color:mistyrose;
   font-style: italic;
 text-align:center;
-width:300px;
+width:297px;
 padding:2px;
 }
 
@@ -56,7 +58,7 @@ footer {position:static; font-family:'noto sans';}
  * top 5 page
  */
 
-#fixlink {color:rgb(237, 78, 124); font-size:1rem;font-weight:800;}
+.fixlink {color:rgb(237, 78, 124); font-size:1rem;font-weight:800;}
 
 input[type=text] {width:100%; padding: 12px 20px;
   margin: 8px 0;
