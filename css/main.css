@@ -35,9 +35,9 @@ a {color:whitesmoke;
 text-decoration: none; font-family:'montserrat'; font-size:0.97rem;
 }
 
-img {margin:2rem;}
+img {margin:0.5rem;}
 
-.figfix { margin-bottom: 0rem; margin-left:-0.5rem;}
+.figfix { margin-bottom: 0rem; }
 
 ul{ list-style-type: none;
   margin: 0px;
@@ -67,9 +67,9 @@ figcaption {background-color:palevioletred;
   color:mistyrose;
   font-style: italic;
 text-align:center;
-width:17.7rem;
+width:14.8rem;
 padding:2px;
-margin-left:-0.5rem;
+margin-left:0.5rem;
 }
 
 
