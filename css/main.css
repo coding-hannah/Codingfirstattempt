@@ -1,28 +1,44 @@
 
 
+
+
+
+
 Html {font-size: 16px;}
 
 body {background-color:rgb(255, 221, 231);font-family: 'Rubik'; font-size:16px;color:rgb(168, 34, 73);
 }
 
-h1 {color:rgb(115, 8, 29);text-decoration:underline; font-size:2.4rem;font-family:'Merriweather sans';
+
+h1 {color:rgb(115, 8, 29);
+  text-decoration:underline; 
+  font-size:2.06rem;
+  font-family:'Merriweather sans';
+margin:0.5rem;
+text-align:center;
  }
 
- h2{font-size:1.8rem;color:rgb(99, 37, 56);font-family:'Montserrat';
+ h2{font-size:1.3rem;
+  color:rgb(99, 37, 56);
+  font-family:'Montserrat';
+  Margin:0.5rem;
+  text-align: center;
 }
 
 h3{text-decoration: underline; color:rgb(150, 44, 77); font-family:'Montserrat';
 }
 
-p{font-size:1rem;;
+p{font-size:1rem;margin:0.5rem;
 }
 
 a {color:whitesmoke;
-text-decoration: none; font-family:'montserrat'; font-size:1.2rem;
+text-decoration: none; font-family:'montserrat'; font-size:0.97rem;
 }
 
+img{}
+
 ul{ list-style-type: none;
-  margin: 0;
+  margin: 0px;
   padding: 2px; 
 }
 
@@ -31,26 +47,42 @@ ul{ list-style-type: none;
   background-color:palevioletred; 
 }
 
-.navbar {display:inline;border-right: 0.17rem solid mistyrose;font-size:1.35rem;}
+.navbar {display:inline;
+  border-right: 0.17rem solid mistyrose;
+  font-size:1rem;
+padding:0.3rem;
+padding-left:0.6rem;
+}
 
-.primarybackground{background-color:rgb(73, 1, 24);color:mistyrose; font-size:0.89rem;}
+.primarybackground{background-color:rgb(73, 1, 24);
+  color:mistyrose; 
+  font-size:0.89rem;
+padding:0.3rem;
+
+}
 
 figcaption {background-color:palevioletred;
   color:mistyrose;
   font-style: italic;
 text-align:center;
-width:297px;
+width:17.7rem;
 padding:2px;
 }
 
 
-#linkedin {font-family:'noto sans';color:rgb(255, 145, 177);font-size:0.89rem }
+#linkedin {font-family:'noto sans';
+  color:rgb(255, 145, 177);
+  font-size:0.89rem; }
 
-footer {position:static; font-family:'noto sans';}
+footer {position:static; font-family:'noto sans';
+padding:0.5rem;
+}
 
+.goot {display:inline;}
 
 /**
- * Contact page stuff
+ * Contact page stuff. Rem the title 'Hannah' and then rem the pics and forms so it works on phones
+put linkedin far right
  */
 #contact {text-decoration:none; }
 
@@ -82,5 +114,16 @@ input[type=submit] {
 form {border-radius: 5px;
   background-color: rgb(255, 191, 193);
   padding: 15px;
-width:28rem;
+width:18rem;
+
+}
+
+
+
+@media screen and (min-width: 768px) 
+{ body { background-color: lightgreen;} 
+html{font-size:18px;}
+a{font-size:1.2rem;}
+h1{font-size:2.4rem;}
+h2{font-size:1.8rem;}
 }
