@@ -96,6 +96,10 @@ put linkedin far right
  * top 5 page
  */
 
+.listalign {text-align: left;}
+ol{text-align:center;}
+
+ 
 .fixlink {color:rgb(237, 78, 124); font-size:1rem;font-weight:800;}
 
 input[type=text] {width:100%; padding: 12px 20px;
@@ -137,6 +141,7 @@ h2{font-size:1.8rem;}
 footer{text-align:left;}
 .goot{font-size:0.75rem;}
 #linkedin{font-size:0.75rem;}
+
 
 form{width:18rem;}
 }
