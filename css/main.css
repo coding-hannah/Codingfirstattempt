@@ -25,7 +25,10 @@ text-align:center;
   text-align: center;
 }
 
-h3{text-decoration: underline; color:rgb(150, 44, 77); font-family:'Montserrat';
+h3{text-decoration: underline; 
+  color:rgb(150, 44, 77); 
+  font-family:'Montserrat';
+margin:0.5rem;
 }
 
 p{font-size:1rem;margin:0.5rem;
@@ -41,7 +44,7 @@ img {margin:0.5rem;}
 
 ul{ list-style-type: none;
   margin: 0px;
-  padding: 2px; 
+  padding: 0px; 
 }
 
 
@@ -53,7 +56,7 @@ ul{ list-style-type: none;
   border-right: 0.17rem solid mistyrose;
   font-size:1rem;
 padding:0.3rem;
-padding-left:0.6rem;
+padding-left:0.3rem;
 }
 
 .primarybackground{background-color:rgb(73, 1, 24);
@@ -78,7 +81,7 @@ margin-left:0.5rem;
   font-size:0.89rem; }
 
 footer {position:static; font-family:'noto sans';
-padding:0.5rem;
+padding:0.5rem; text-align:center;
 }
 
 .goot {display:inline;}
@@ -117,16 +120,23 @@ input[type=submit] {
 form {border-radius: 5px;
   background-color: rgb(255, 191, 193);
   padding: 15px;
-width:18rem;
-
+width:15rem;
+margin:0.5rem;
 }
 
 
 
 @media screen and (min-width: 768px) 
-{ body { background-color: lightgreen;} 
+{ body { background-color: rgb(255, 230, 233);} 
 html{font-size:18px;}
+.navbar{padding-top:0.5rem;}
+
 a{font-size:1.2rem;}
 h1{font-size:2.4rem;}
 h2{font-size:1.8rem;}
+footer{text-align:left;}
+.goot{font-size:0.75rem;}
+#linkedin{font-size:0.75rem;}
+
+form{width:18rem;}
 }
