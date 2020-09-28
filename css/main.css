@@ -6,7 +6,10 @@
 
 Html {font-size: 16px;}
 
-body {background-color:rgb(255, 221, 231);font-family: 'Rubik'; font-size:16px;color:rgb(168, 34, 73);
+body {background-color:rgb(255, 221, 231);
+  font-family: 'Rubik'; 
+  font-size:16px;
+  color:rgb(168, 34, 73);
 }
 
 
@@ -40,7 +43,13 @@ text-decoration: none; font-family:'montserrat'; font-size:0.97rem;
 
 img {margin:0.5rem;}
 
-.figfix { margin-bottom: 0rem; }
+div.test > img {display: block;
+  margin-left: auto;
+  margin-right: auto;}
+
+.figfix { margin-bottom: 0rem; display: block;
+  margin-left: auto;
+  margin-right: auto;}
 
 ul{ list-style-type: none;
   margin: 0px;
@@ -52,27 +61,42 @@ ul{ list-style-type: none;
   background-color:palevioletred; 
 }
 
-.navbar {display:inline;
-  border-right: 0.17rem solid mistyrose;
+nav.navbar > ul > li {display:inline;
+  border-right: 0.17rem solid white;
   font-size:1rem;
 padding:0.3rem;
 padding-left:0.3rem;
+
 }
+.home{border-left:0.17rem solid white}
+
+.navbar{display:flex;justify-content: center;}
+
+
 
 .primarybackground{background-color:rgb(73, 1, 24);
   color:mistyrose; 
   font-size:0.89rem;
 padding:0.3rem;
+padding-left:0;
+padding-right:0;
+overflow:hidden;
 
 }
 
+
+fig >img {display: block;
+  margin-left: auto;
+  margin-right: auto;}
 figcaption {background-color:palevioletred;
   color:mistyrose;
   font-style: italic;
 text-align:center;
-width:14.8rem;
+width:14.77rem;
 padding:2px;
-margin-left:0.5rem;
+display: block;
+  margin-left: auto;
+  margin-right: auto;;
 }
 
 
@@ -84,7 +108,7 @@ footer {position:static; font-family:'noto sans';
 padding:0.5rem; text-align:center;
 }
 
-.goot {display:inline;}
+footer>div {display:block;}
 
 /**
  * Contact page stuff. Rem the title 'Hannah' and then rem the pics and forms so it works on phones
@@ -133,13 +157,20 @@ margin:0.5rem;
 @media screen and (min-width: 768px) 
 { body { background-color: rgb(255, 230, 233);} 
 html{font-size:18px;}
-.navbar{padding-top:0.5rem;}
+.navbar{padding-top:0.1rem;padding-left:0;display:flex;justify-content: left;}
+nav>ul {padding-top:0rem;}
+#active{padding-top:0.3rem;}
+
+.home{border-left: none}
+
+.test {display: flex-inline; flex-direction:row-reverse;}
+div.test > img {float:right;}
 
 a{font-size:1.2rem;}
 h1{font-size:2.4rem;}
 h2{font-size:1.8rem;}
 footer{text-align:left;}
-.goot{font-size:0.75rem;}
+footer>div{display:inline;font-size:0.75rem;}
 #linkedin{font-size:0.75rem;}
 
 
