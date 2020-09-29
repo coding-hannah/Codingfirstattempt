@@ -149,7 +149,10 @@ form {border-radius: 5px;
   background-color: rgb(255, 191, 193);
   padding: 15px;
 width:15rem;
-margin:0.5rem;
+
+display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
