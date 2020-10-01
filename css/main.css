@@ -28,12 +28,14 @@ text-align:center;
   font-family:'Montserrat';
   Margin:0.5rem;
   text-align: center;
+font-weight:560;
 }
 
 h3{text-decoration: underline; 
   color:rgb(150, 44, 77); 
   font-family:'Montserrat';
 margin:0.5rem;
+font-weight:470;
 }
 
 p{font-size:1rem;margin:0.5rem;
