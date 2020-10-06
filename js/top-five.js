@@ -7,6 +7,7 @@ const projects =[{
   text: "Go listen to our virtual rendition of dancing queen!",
   url: "https://www.facebook.com/watch/?ref=search&v=303338101037361&external_log_id=9ccec1b7-3129-4df7-8fd0-da956af06912&q=double%20reeds%20dancing"
   }
+
   },
   {
     title: 'Helping a local organisation',
@@ -29,5 +30,29 @@ const projects =[{
       }
       }];
   console.log (projects);
+console.log(projects.length);
 
+  
  
+for (let i=0; i< projects.length; i++) { 
+  console.log(projects[i].title);
+  console.log(projects[i].description);
+  const project = projects[0];
+  if (!project.link) {
+    console.log ("No link provided")
+  }
+  else { console.log (project.link.text);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
