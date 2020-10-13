@@ -20,3 +20,10 @@ City: 'Northamton'
 }
 
 console.log(person);
+
+
+function getFullName(firstName, surname) {
+const  fullName = firstName + " " +surname;
+return fullName;
+}
+console.log (getFullName("Hannah","Heilbuth"))

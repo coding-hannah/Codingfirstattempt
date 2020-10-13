@@ -40,12 +40,46 @@ Use this handy lil form to drop me a message (I promise I'll get back to you <em
 <input name="topic" type="text"/> <br>
 <label for="message">Message:</label>
 <input name="message" type="text"/> <br>
-<input type="submit" value="Send"/>
+<button id="contactFormSubmit" type="button" class="buttonstyle" data-toggle="modal" data-target="#exampleModal">Submit</button>
 </form>
+
+<img src="https://i.chzbgr.com/full/7816988928/hBEC77623/hello" alt="sheep-hello" style="width:256px;height:220px;" >
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Thank you!</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Message you sent:</p>
+
+          <div id="nameDiv">
+            <p><b>Name:</b></p>
+          </div>
+
+          <div id="topicDiv">
+            <p><b>Topic:</b></p>
+          </div>
+
+          <div id="messageDiv">
+            <p><b>Message:</b></p>
+          </div>
+
+          <p>Thank you for sending your message, I will respond soon!</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="buttonstyle" data-dismiss="modal">Close</button>
+        </div>
+      </div>
 
 <br>
 
-<img src="https://i.chzbgr.com/full/7816988928/hBEC77623/hello" alt="sheep-hello" style="width:256px;height:220px;" >
+
 </main>
   <br>
 <footer class=primarybackground>
@@ -53,6 +87,7 @@ Use this handy lil form to drop me a message (I promise I'll get back to you <em
     <div> Find me on <a id=linkedin href="https://www.linkedin.com/in/hannah-heilbuth-b00a241b1/"> Linkedin </a> </div>
     
     </footer>
+    <script src=./js/contact.js> </script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
