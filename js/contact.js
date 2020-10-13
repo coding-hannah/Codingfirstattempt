@@ -1,7 +1,14 @@
 
-
+let alreadySubmitted = false;
 
 function appendModal(nameValue, topicValue, messageValue) {
+ if (alreadySubmitted) {
+  document.getElementById("nameField").remove();
+  document.getElementById("topicField").remove();
+  document.getElementById("messageField").remove();
+ 
+ }
+ 
   // Add name text to modal
   const nameField = document.createElement("p");
   nameField.setAttribute("id", "nameField");
@@ -19,18 +26,27 @@ document.getElementById("topicDiv").appendChild(topicField);
   messageField.setAttribute("id","messageField");
   messageField.textContent = messageValue;
   document.getElementById("messageDiv").appendChild(messageField);
-}
 
-appendModal(
-  "Code First Girls",
-  "New Website",
-  "We want a new website, please help!"
-);
+ 
+alreadySubmitted = true;
+} 
+
 
 // Add event listener
 
+
 const submitButton = document.getElementById("contactFormSubmit");
 submitButton.addEventListener ("click", function (event){
+  //capture form details
+
 appendModal ("text 1","text 2", "text 3");
 
 });
+
+
+
+
+
+
+
+
