@@ -45,6 +45,10 @@ a {color:whitesmoke;
 text-decoration: none; font-family:'montserrat'; font-size:0.97rem;
 }
 
+a:hover { color:rgb(221, 49, 104); text-decoration:none;
+  border-bottom: 2px solid rgb(221, 49, 104);
+}
+
 img {margin:0.5rem;}
 
 
